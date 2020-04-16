@@ -240,21 +240,20 @@
             "generate": "expression",
             "name": "MYSQL_USER",
             "required": true
-			"value": "user"
+	    "value": "user"
         },
         {
             "description": "Password for the MySQL connection user.",
             "displayName": "MySQL Connection Password",
             "name": "MYSQL_PASSWORD",
             "required": true
-			"value": "root"
+	    "value": "root"
         },
         {
             "description": "Password for the MySQL root user.",
             "displayName": "MySQL root user Password",
             "name": "MYSQL_ROOT_PASSWORD",
             "required": false
-			"value": ""
         },
         {
             "description": "Name of the MySQL database accessed.",
