@@ -239,14 +239,14 @@
             "from": "user[A-Z0-9]{3}",
             "generate": "expression",
             "name": "MYSQL_USER",
-            "required": true
+            "required": true,
 	    "value": "user"
         },
         {
             "description": "Password for the MySQL connection user.",
             "displayName": "MySQL Connection Password",
             "name": "MYSQL_PASSWORD",
-            "required": true
+            "required": true,
 	    "value": "root"
         },
         {
