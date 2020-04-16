@@ -252,9 +252,11 @@
         {
             "description": "Password for the MySQL root user.",
             "displayName": "MySQL root user Password",
+            "from": "[a-zA-Z0-9]{16}",
+            "generate": "expression",
             "name": "MYSQL_ROOT_PASSWORD",
-            "required": false
-        },
+            "required": true
+	},
         {
             "description": "Name of the MySQL database accessed.",
             "displayName": "MySQL Database Name",
